@@ -1,0 +1,59 @@
+<resources>
+    <string name="app_name">UnitConverterApp</string>
+    <string name="area">Area</string>
+    <string name="length">Length</string>
+    <string name="rupee">Rupee</string>
+    <string name="weight">Weight</string>
+    <string name="time">Time</string>
+    <string name="temp">Temperature</string>
+    <string name="select">Select Item</string>
+
+    <string-array name="area_units">
+        <item>Square meters (m²)</item>
+        <item>Square feet (ft²)</item>
+        <item>Square kilometers (km²)</item>
+        <item>Square yards (yd²)</item>
+        <item>Square inches (in²)</item>
+        <item>Acres (ac)</item>
+    </string-array>
+
+    <string-array name="weight_units">
+        <item>Kilograms (kg)</item>
+        <item>Grams (g)</item>
+        <item>Pounds (lb)</item>
+        <item>Ounces (oz)</item>
+    </string-array>
+
+    <string-array name="length_units">
+        <item>meters (m)</item>
+        <item>feet (ft)</item>
+        <item>inches (in)</item>
+        <item>kilometers (km)</item>
+        <item>millimeters (mm)</item>
+        <item>centimeters (cm)</item>
+    </string-array>
+
+    <string-array name="currency_options">
+        <item>INR</item>
+        <item>POUND</item>
+        <item>USD</item>
+        <item>EURO</item>
+    </string-array>
+
+    <string-array name="inr">
+        <item>INR</item>
+    </string-array>
+
+    <string-array name="temp_options">
+        <item>Fahrenheit </item>
+        <item>Celsius </item>
+        <item>Kelvin </item>
+    </string-array>
+
+    <string-array name="time_options">
+        <item>Minutes (min)</item>
+        <item>Seconds (sec)</item>
+        <item>Hours (hrs)</item>
+    </string-array>
+
+</resources>

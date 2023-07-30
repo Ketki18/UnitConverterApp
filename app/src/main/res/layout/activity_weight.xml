@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFF1E57F"
+    tools:context=".HomeActivity">
+    <TextView
+        android:id="@+id/titleHome"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Weight Converter"
+        android:textColor="#E91E63"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="20dp"
+        tools:ignore="HardcodedText" />
+
+    <Spinner
+        android:id="@+id/spinnerFromUnit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/titleHome"
+        android:entries="@array/weight_units" />
+
+    <EditText
+        android:id="@+id/weightInput"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/spinnerFromUnit"
+        android:layout_marginTop="16dp"
+        android:hint="Enter Value"
+        android:inputType="numberDecimal"
+        tools:ignore="HardcodedText" />
+    <Spinner
+        android:id="@+id/spinnerToUnit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/weightInput"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp"
+        android:entries="@array/weight_units" />
+
+    <Button
+        android:id="@+id/convertButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/spinnerToUnit"
+        android:backgroundTint="@color/teal_200"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp"
+
+        android:text="Convert"
+        tools:ignore="HardcodedText" />
+    <TextView
+        android:id="@+id/resultWeight"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/convertButton"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+
+
+</RelativeLayout>
