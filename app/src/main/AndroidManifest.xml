@@ -8,7 +8,7 @@
         android:allowBackup="true"
         android:icon="@mipmap/ic_unit"
         android:label="@string/app_name"
-        android:roundIcon="@mipmap/ic_launcher_round"
+        android:roundIcon="@mipmap/ic_unit"
         android:supportsRtl="true"
         android:theme="@style/Theme.UnitConverterApp"
         android:usesCleartextTraffic="true">
